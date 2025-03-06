@@ -9,7 +9,7 @@ namespace RestaurantBookingAPI
         {
             _repository = repository;
         }
-        public Task<List<Restaurant>> GetAllRestaurantsAsync()
+        public Task<List<RestaurantModel>> GetAllRestaurantsAsync()
         {
             return _repository.GetAllRestaurantsAsync();
         }

@@ -4,6 +4,6 @@ namespace RestaurantBookingAPI
 {
     public interface IRestaurantService
     {
-        Task<List<Restaurant>> GetAllRestaurantsAsync();
+        Task<List<RestaurantModel>> GetAllRestaurantsAsync();
     }
 }

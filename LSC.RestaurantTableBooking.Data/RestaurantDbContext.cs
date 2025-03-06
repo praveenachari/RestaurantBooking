@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using RestaurantBookingAPI.Models;
-
+﻿using LSC.RestaurantTableBookingApp.Core;
+using Microsoft.EntityFrameworkCore;
 namespace RestaurantBookingAPI.Data
 {
+    /// <summary>
+    /// ctor is the snippet used to shortcut to create constructor
+    /// </summary>
     public class RestaurantDbContext:DbContext
     {
         public RestaurantDbContext(DbContextOptions<RestaurantDbContext> options):base(options)

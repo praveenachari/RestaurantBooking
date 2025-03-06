@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using LSC.RestaurantTableBookingApp.Core;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using RestaurantBookingAPI.Models;
 
 namespace RestaurantBookingAPI.Controllers
 {

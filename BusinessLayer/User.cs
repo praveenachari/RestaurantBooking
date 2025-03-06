@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RestaurantBookingAPI.Models
+namespace LSC.RestaurantTableBookingApp.Core
 {
     public class User
     {

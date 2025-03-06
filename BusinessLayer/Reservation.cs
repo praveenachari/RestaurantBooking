@@ -1,4 +1,4 @@
-﻿namespace RestaurantBookingAPI.Models
+﻿namespace LSC.RestaurantTableBookingApp.Core
 {
     public class Reservation
     {

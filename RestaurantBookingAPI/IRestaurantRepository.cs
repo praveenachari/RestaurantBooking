@@ -4,9 +4,10 @@ namespace RestaurantBookingAPI
 {
     public interface IRestaurantRepository
     {
-        Task<List<Restaurant>> GetAllRestaurantsAsync();
-        Task<List<RestaurantBranch>> GetRestaurantBranchesByRestaturantIdAsync(int reataurantId);
-        Task<IEnumerable<DiningTable>> GetDiningTableByBranchAsync(int restaurantId);
+        Task<List<RestaurantModel>> GetAllRestaurantsAsync();
+        Task<IEnumerable<RestaurantBranchModel>> GetRestaurantBranchesByRestaturantIdAsync(int restaurantId);
+        //Task<IEnumerable<DiningTableWithTimeSlotModel>> GetDiningTableByBranchAsync(int branchId,DateTime date);
+        //Task<IEnumerable<DiningTableWithTimeSlotModel>> GetDiningTableByBranchAsync(int branchId);
 
     }
 }
